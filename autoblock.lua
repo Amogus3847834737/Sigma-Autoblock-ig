@@ -15,7 +15,7 @@ local STATE = {
 }
 
 local SETTINGS = {
-    Radius = 10,             
+    Radius = 5,             
     AimRadius = 200,         
     DebounceTime = 0.1, 
     VisualColor = Color3.new(1, 0, 0),
