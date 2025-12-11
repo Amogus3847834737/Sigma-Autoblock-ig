@@ -11,7 +11,7 @@ end)
 
 -- // 1. CONFIGURATION // --
 local SETTINGS = {
-    Radius = 10, 
+    Radius = 6, 
     DebounceTime = 0.1, 
     -- We use a simpler color definition to prevent errors
     VisualColor = Color3.new(1, 0, 0), -- Red
