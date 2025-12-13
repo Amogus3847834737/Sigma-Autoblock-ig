@@ -9,13 +9,13 @@ local VirtualInputManager = nil
 pcall(function() VirtualInputManager = game:GetService("VirtualInputManager") end)
 
 local STATE = {
-    AutoBlockEnabled = true, 
-    JoystickEnabled = true,
+    AutoBlockEnabled = false, 
+    JoystickEnabled = false,
     AimlockEnabled = false 
 }
 
 local SETTINGS = {
-    Radius = 5,             
+    Radius = 6,             
     AimRadius = 200,         
     DebounceTime = 0.1, 
     VisualColor = Color3.new(1, 0, 0),
